@@ -22,7 +22,7 @@ const select1 = ref('')
   />
 
   <p>
-    <strong>Expected behavior:</strong> the option list is open, or at least can ben open with arrow
+    <strong>Expected behavior:</strong> the option list is open, or at least can be open with arrow
     keys.
   </p>
   <p>

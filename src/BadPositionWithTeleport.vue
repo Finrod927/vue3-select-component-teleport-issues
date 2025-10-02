@@ -6,7 +6,7 @@ const select1 = ref('')
 </script>
 
 <template>
-  <h2>Focusing VueSelect component with tab does not open the option list</h2>
+  <h2>With teleport="body" and a scrolled page, the list is not correctly positionned</h2>
 
   <p>Scroll down a "little" to show the VueSelect components</p>
   <div style="height: 600px" />
