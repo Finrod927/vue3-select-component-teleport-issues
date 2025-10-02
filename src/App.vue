@@ -1,11 +1,21 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import BadPositionWithTeleport from './BadPositionWithTeleport.vue'
+import KeyboardFocus from './KeyboardFocus.vue'
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <KeyboardFocus />
+  <hr />
+  <BadPositionWithTeleport />
 </template>
 
-<style scoped></style>
+<style>
+body {
+  padding: 2rem;
+}
+
+p {
+  width: 100%;
+  max-width: 100%;
+}
+</style>
